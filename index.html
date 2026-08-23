@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Famous From Here — Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for the Famous From Here mobile app.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="alternate" hreflang="en" href="en/">
+  <link rel="alternate" hreflang="ja" href="ja/">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <p class="eyebrow">Famous From Here</p>
+      <h1>Privacy Policy</h1>
+      <p class="lede">Choose your language to read how the app handles your information.</p>
+    </header>
+
+    <nav class="lang-switch" aria-label="Language selection">
+      <a class="lang-card" href="en/">
+        <span class="lang-label">English</span>
+        <span class="lang-arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="lang-card" href="ja/">
+        <span class="lang-label">日本語</span>
+        <span class="lang-arrow" aria-hidden="true">→</span>
+      </a>
+    </nav>
+
+    <footer class="footer">
+      <p>© 2026 Famous From Here</p>
+    </footer>
+  </main>
+  <script>
+    (function () {
+      var lang = (navigator.language || '').toLowerCase();
+      if (lang.indexOf('ja') === 0) {
+        window.location.replace('ja/');
+      }
+    })();
+  </script>
+</body>
+</html>
