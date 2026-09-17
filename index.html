@@ -1,44 +1,287 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Famous From Here — Privacy Policy</title>
-  <meta name="description" content="Privacy Policy for the Famous From Here mobile app.">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="alternate" hreflang="en" href="en/">
-  <link rel="alternate" hreflang="ja" href="ja/">
+  <title>プライバシーポリシー - Famous From Here</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+      line-height: 1.7;
+      color: #e8f4f8;
+      background: linear-gradient(160deg, #060b18 0%, #0a1628 45%, #0d2137 100%);
+      min-height: 100vh;
+      padding: 24px 16px 48px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: rgba(10, 22, 40, 0.92);
+      border: 1px solid #1a3a5c;
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+    }
+
+    h1 {
+      color: #00d4ff;
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      letter-spacing: 0.02em;
+    }
+
+    .app-name {
+      color: #4a7a9b;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    .last-updated {
+      color: #4a7a9b;
+      font-size: 14px;
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #1a3a5c;
+    }
+
+    h2 {
+      color: #00d4ff;
+      font-size: 20px;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+
+    h3 {
+      color: #b8d4e8;
+      font-size: 16px;
+      margin-top: 18px;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #b8d4e8;
+      font-size: 15px;
+    }
+
+    ul {
+      margin: 0 0 14px 1.25em;
+    }
+
+    li {
+      margin-bottom: 6px;
+      color: #b8d4e8;
+      font-size: 15px;
+    }
+
+    a {
+      color: #00d4ff;
+    }
+
+    .contact-info {
+      background: rgba(0, 212, 255, 0.06);
+      border: 1px solid #1a3a5c;
+      padding: 18px;
+      border-radius: 12px;
+      margin-top: 12px;
+    }
+
+    .contact-info p {
+      margin-bottom: 6px;
+    }
+
+    .en {
+      margin-top: 48px;
+      padding-top: 32px;
+      border-top: 1px solid #1a3a5c;
+    }
+
+    .en h1 {
+      font-size: 26px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 24px 18px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <main class="shell">
-    <header class="hero">
-      <p class="eyebrow">Famous From Here</p>
+  <div class="container">
+    <h1>プライバシーポリシー</h1>
+    <p class="app-name">Famous From Here（有名人サーチ）</p>
+    <p class="last-updated">最終更新日: 2026年9月17日</p>
+
+    <h2>1. はじめに</h2>
+    <p>
+      Famous From Here（以下「本アプリ」）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めます。
+      本ポリシーは、本アプリがどのような情報を取り扱い、どのように使用・保護するかを説明します。
+    </p>
+
+    <h2>2. 収集する情報</h2>
+
+    <h3>2.1 位置情報</h3>
+    <p>本アプリは、現在地の出身有名人を検索するために、ユーザーが「現在地から探す」を選んだ場合に限り、端末の位置情報（緯度・経度など）を取得します。用途は次のとおりです。</p>
+    <ul>
+      <li>現在地から市区町村などの地名を特定する（逆ジオコーディング）</li>
+      <li>特定した地名をもとに、出身有名人の検索を行う</li>
+    </ul>
+    <p>
+      位置情報はフォアグラウンド（本アプリ使用中）でのみ取得し、バックグラウンドで継続的に追跡することはありません。
+      位置情報の許可を拒否しても、地名を手入力すれば本アプリを利用できます。
+      緯度・経度そのものを本アプリ独自のサーバーに保存・蓄積することはありません。
+    </p>
+
+    <h3>2.2 検索内容・端末上のデータ</h3>
+    <p>本アプリの利用時、以下の情報が端末上で処理・保存される場合があります。</p>
+    <ul>
+      <li>検索欄に入力した地名</li>
+      <li>検索履歴（地名と検索日時。端末内に保存）</li>
+      <li>お気に入りに追加した著名人の情報（氏名、概要、画像URLなど。端末内に保存）</li>
+      <li>端末の言語設定に基づく表示言語</li>
+    </ul>
+    <p>これらのデータは端末内でのみ保持され、本アプリ独自のサーバーへ送信・同期することはありません。検索履歴はアプリ内から消去できます。</p>
+
+    <h3>2.3 アカウント情報</h3>
+    <p>本アプリはユーザーアカウントの作成を必要とせず、氏名・メールアドレス・パスワード等の登録情報は収集しません。</p>
+
+    <h2>3. 情報の利用目的</h2>
+    <ul>
+      <li>指定した地名、または現在地から特定した地名の出身有名人の検索・表示</li>
+      <li>Wikipedia上の公開情報（記事・カテゴリ・画像）の取得と表示</li>
+      <li>お気に入り・検索履歴など、端末内機能の提供</li>
+      <li>アプリの基本動作の維持</li>
+    </ul>
+
+    <h2>4. 外部サービスへの送信</h2>
+    <p>機能提供のため、次の外部サービスへ必要な範囲で情報を送信する場合があります。</p>
+    <ul>
+      <li><strong>Wikipedia（ウィキメディア財団）</strong>：検索した地名やページ情報の取得。公開されている記事・カテゴリ・画像を取得します</li>
+      <li><strong>端末の位置情報サービス（Apple / Google など）</strong>：現在地機能を使う場合の逆ジオコーディング</li>
+    </ul>
+    <p>各サービスには独自のプライバシーポリシーが適用されます。本アプリの開発者は、これらの第三者サービスの取り扱いを完全に管理するものではありません。</p>
+
+    <h2>5. 情報の共有・販売</h2>
+    <p>本アプリは、次の場合を除き、個人情報を第三者と共有・販売しません。</p>
+    <ul>
+      <li>ユーザーの明示的な同意がある場合</li>
+      <li>法令に基づく開示が求められる場合</li>
+      <li>上記の機能提供に必要な外部サービスへの限定的な送信</li>
+    </ul>
+    <p>本アプリ内に第三者の広告用または分析用 SDK は組み込んでいません。</p>
+
+    <h2>6. データの保存</h2>
+    <p>
+      位置情報の座標は、地名特定のために端末上で一時的に扱います。
+      検索履歴およびお気に入りは端末内に保存され、独自のクラウドデータベースへ個人情報を恒久保存することはありません。
+      アプリを削除すると、端末内に保存されたこれらのデータも削除されます。
+    </p>
+
+    <h2>7. セキュリティ</h2>
+    <p>
+      外部APIとの通信には一般的な暗号化通信（HTTPS）を用います。
+      ただし、インターネット通信や端末側の制約により、絶対的な安全性を保証するものではありません。
+    </p>
+
+    <h2>8. 子どものプライバシー</h2>
+    <p>本アプリは、13歳未満の子どもから意図的に個人情報を収集しません。</p>
+
+    <h2>9. ポリシーの変更</h2>
+    <p>
+      本ポリシーは必要に応じて更新されることがあります。重要な変更がある場合は、本ページの更新日を改定します。
+      最新版は本ページでご確認ください。
+    </p>
+
+    <h2>10. お問い合わせ</h2>
+    <div class="contact-info">
+      <p><strong>アプリ名:</strong> Famous From Here</p>
+      <p><strong>開発者:</strong> ryuhosoy</p>
+      <p><strong>メール:</strong> <a href="mailto:ryuhosoy@gmail.com">ryuhosoy@gmail.com</a></p>
+    </div>
+
+    <div class="en">
       <h1>Privacy Policy</h1>
-      <p class="lede">Choose your language to read how the app handles your information.</p>
-    </header>
+      <p class="app-name">Famous From Here</p>
+      <p class="last-updated">Last updated: September 17, 2026</p>
 
-    <nav class="lang-switch" aria-label="Language selection">
-      <a class="lang-card" href="en/">
-        <span class="lang-label">English</span>
-        <span class="lang-arrow" aria-hidden="true">→</span>
-      </a>
-      <a class="lang-card" href="ja/">
-        <span class="lang-label">日本語</span>
-        <span class="lang-arrow" aria-hidden="true">→</span>
-      </a>
-    </nav>
+      <h2>1. Introduction</h2>
+      <p>
+        Famous From Here (“the App”) respects your privacy. This policy explains what information the App handles and how it is used.
+      </p>
 
-    <footer class="footer">
-      <p>© 2026 Famous From Here</p>
-    </footer>
-  </main>
-  <script>
-    (function () {
-      var lang = (navigator.language || '').toLowerCase();
-      if (lang.indexOf('ja') === 0) {
-        window.location.replace('ja/');
-      }
-    })();
-  </script>
+      <h2>2. Information We Handle</h2>
+      <h3>2.1 Location</h3>
+      <p>
+        The App uses your device location only if you choose “Use current location,” to identify a nearby place name and search for notable people from that area.
+        Location is requested while the App is in use and is not tracked continuously in the background. Coordinates are not stored on our own servers. You can deny location permission and still search by typing a place name.
+      </p>
+
+      <h3>2.2 On-Device Search Data</h3>
+      <p>
+        Place names you search, search history, and favorites (such as a person’s name, summary, and image URL) may be stored on your device. This data stays on the device and is not synced to our own servers. You can clear search history in the App.
+      </p>
+
+      <h3>2.3 Accounts</h3>
+      <p>The App does not require an account and does not collect name, email, or password for registration.</p>
+
+      <h2>3. How We Use Information</h2>
+      <ul>
+        <li>Searching and displaying notable people from a place you enter or from your current location</li>
+        <li>Fetching public Wikipedia articles, categories, and images</li>
+        <li>Providing on-device favorites and search history</li>
+        <li>Maintaining core App functionality</li>
+      </ul>
+
+      <h2>4. Third-Party Services</h2>
+      <ul>
+        <li><strong>Wikipedia (Wikimedia Foundation)</strong> — public article, category, and image data for searched place names</li>
+        <li><strong>Device location services (Apple / Google)</strong> — reverse geocoding when you use current location</li>
+      </ul>
+      <p>These services have their own privacy policies.</p>
+
+      <h2>5. Sharing</h2>
+      <p>
+        We do not sell personal information. We share data only with your consent, when required by law, or as needed to provide the App via the services listed above.
+        The App does not include third-party advertising or analytics SDKs.
+      </p>
+
+      <h2>6. Storage</h2>
+      <p>
+        Location coordinates are handled temporarily on the device to resolve a place name. Search history and favorites are stored on the device only. We do not persistently store personal information in our own cloud database. Uninstalling the App removes this on-device data.
+      </p>
+
+      <h2>7. Children’s Privacy</h2>
+      <p>We do not knowingly collect personal information from children under 13.</p>
+
+      <h2>8. Changes</h2>
+      <p>We may update this policy from time to time. The latest version will be posted on this page with an updated date.</p>
+
+      <h2>9. Contact</h2>
+      <div class="contact-info">
+        <p><strong>App:</strong> Famous From Here</p>
+        <p><strong>Developer:</strong> Ryuhei Hosoya</p>
+        <p><strong>Email:</strong> <a href="mailto:ryuhosoy@gmail.com">ryuhosoy@gmail.com</a></p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
